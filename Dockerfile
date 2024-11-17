@@ -74,7 +74,7 @@ RUN if [ "$MODEL_TYPE" = "sdxl" ]; then \
 
 
 
-RUN mkdir -p /comfyui/custom_nodes && \
+# RUN mkdir -p /comfyui/custom_nodes && \
     # git clone https://github.com/chrisgoringe/cg-image-picker.git custom_nodes/cg-image-picker && \
     # git clone https://github.com/chrisgoringe/cg-noisetools.git custom_nodes/cg-noisetools && \
     # git clone https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git custom_nodes/ComfyUI-Advanced-ControlNet && \
@@ -86,7 +86,7 @@ RUN mkdir -p /comfyui/custom_nodes && \
     # git clone https://github.com/kijai/ComfyUI-DynamiCrafterWrapper.git custom_nodes/ComfyUI-DynamiCrafterWrapper && \
     # git clone https://github.com/kijai/ComfyUI-Florence2.git custom_nodes/ComfyUI-Florence2 && \
     # git clone https://github.com/Fannovel16/ComfyUI-Frame-Interpolation.git custom_nodes/ComfyUI-Frame-Interpolation && \
-    git clone https://github.com/ltdrdata/ComfyUI-Impact-Pack.git custom_nodes/ComfyUI-Impact-Pack && \
+    # git clone https://github.com/ltdrdata/ComfyUI-Impact-Pack.git custom_nodes/ComfyUI-Impact-Pack && \
     # git clone https://github.com/Acly/comfyui-inpaint-nodes.git custom_nodes/comfyui-inpaint-nodes && \
     # git clone https://github.com/ltdrdata/ComfyUI-Inspire-Pack.git custom_nodes/ComfyUI-Inspire-Pack && \
     # git clone https://github.com/kijai/ComfyUI-KJNodes.git custom_nodes/ComfyUI-KJNodes && \
@@ -106,7 +106,7 @@ RUN mkdir -p /comfyui/custom_nodes && \
     # git clone https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git custom_nodes/ComfyUI-VideoHelperSuite && \
     # git clone https://github.com/RockOfFire/ComfyUI_Comfyroll_CustomNodes.git custom_nodes/ComfyUI_Comfyroll_CustomNodes && \
     # git clone https://github.com/Fannovel16/comfyui_controlnet_aux.git custom_nodes/comfyui_controlnet_aux && \
-    git clone https://github.com/cubiq/ComfyUI_essentials.git custom_nodes/ComfyUI_essentials && \
+    # git clone https://github.com/cubiq/ComfyUI_essentials.git custom_nodes/ComfyUI_essentials && \
     # git clone https://github.com/cubiq/ComfyUI_FaceAnalysis.git custom_nodes/ComfyUI_FaceAnalysis && \
     # git clone https://github.com/cubiq/ComfyUI_InstantID.git custom_nodes/ComfyUI_InstantID && \
     # git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus.git custom_nodes/ComfyUI_IPAdapter_plus && \
