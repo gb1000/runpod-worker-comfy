@@ -73,6 +73,8 @@ RUN if [ "$MODEL_TYPE" = "sdxl" ]; then \
     fi
 
 
+ RUN git clone https://github.com/rgthree/rgthree-comfy.git custom_nodes/rgthree-comfy
+
 
 # RUN mkdir -p /comfyui/custom_nodes && \
     # git clone https://github.com/chrisgoringe/cg-image-picker.git custom_nodes/cg-image-picker && \
@@ -117,7 +119,6 @@ RUN if [ "$MODEL_TYPE" = "sdxl" ]; then \
     # git clone https://github.com/failfa-st/failfast-comfyui-extensions.git custom_nodes/failfast-comfyui-extensions && \
     # git clone https://github.com/BadCafeCode/masquerade-nodes-comfyui.git custom_nodes/masquerade-nodes-comfyui && \
     # git clone https://github.com/glibsonoran/Plush-for-ComfyUI.git custom_nodes/Plush-for-ComfyUI && \
-    git clone https://github.com/rgthree/rgthree-comfy.git custom_nodes/rgthree-comfy && \
     # git clone https://github.com/pamparamm/sd-perturbed-attention.git custom_nodes/sd-perturbed-attention && \
     # git clone https://github.com/WASasquatch/was-node-suite-comfyui.git custom_nodes/was-node-suite-comfyui
 
